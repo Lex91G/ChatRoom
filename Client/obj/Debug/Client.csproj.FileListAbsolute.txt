@@ -4,9 +4,18 @@ c:\users\hobbitmafia\Dropbox\C#\ChatroomStarter\Client\bin\Debug\Client.pdb
 c:\users\hobbitmafia\Dropbox\C#\ChatroomStarter\Client\obj\Debug\Client.exe
 c:\users\hobbitmafia\Dropbox\C#\ChatroomStarter\Client\obj\Debug\Client.pdb
 c:\users\hobbitmafia\Dropbox\C#\ChatroomStarter\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\Alex G\Downloads\ChatroomStarter\ChatroomStarter\ChatroomStarter\ChatroomStarter\Client\bin\Debug\Client.exe.config
 C:\Users\Alex G\Downloads\ChatroomStarter\ChatroomStarter\ChatroomStarter\ChatroomStarter\Client\bin\Debug\Client.exe
 C:\Users\Alex G\Downloads\ChatroomStarter\ChatroomStarter\ChatroomStarter\ChatroomStarter\Client\bin\Debug\Client.pdb
 C:\Users\Alex G\Downloads\ChatroomStarter\ChatroomStarter\ChatroomStarter\ChatroomStarter\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
 C:\Users\Alex G\Downloads\ChatroomStarter\ChatroomStarter\ChatroomStarter\ChatroomStarter\Client\obj\Debug\Client.exe
 C:\Users\Alex G\Downloads\ChatroomStarter\ChatroomStarter\ChatroomStarter\ChatroomStarter\Client\obj\Debug\Client.pdb
+=======
+C:\Users\camsc\OneDrive\devCode\ChatRoom\Client\bin\Debug\Client.exe.config
+C:\Users\camsc\OneDrive\devCode\ChatRoom\Client\bin\Debug\Client.exe
+C:\Users\camsc\OneDrive\devCode\ChatRoom\Client\bin\Debug\Client.pdb
+C:\Users\camsc\OneDrive\devCode\ChatRoom\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\camsc\OneDrive\devCode\ChatRoom\Client\obj\Debug\Client.exe
+C:\Users\camsc\OneDrive\devCode\ChatRoom\Client\obj\Debug\Client.pdb
+>>>>>>> 153ac924587555ac40a0c4a5e7e2ec658ad90b85
