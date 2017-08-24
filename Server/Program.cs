@@ -10,7 +10,13 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            new Server().Run();
+            bool thing = true;
+            Server test = new Server();
+            test.Run();
+            while(thing == true)
+            {
+                test.SecondRun();
+            }
             Console.ReadLine();
         }
     }
