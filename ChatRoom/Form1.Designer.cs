@@ -69,13 +69,15 @@
             // 
             // PeopleOnline
             // 
-            this.PeopleOnline.BackColor = System.Drawing.SystemColors.Menu;
+            this.PeopleOnline.BackColor = System.Drawing.SystemColors.ControlText;
             this.PeopleOnline.Font = new System.Drawing.Font("Segoe Print", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PeopleOnline.Location = new System.Drawing.Point(1052, 3);
+            this.PeopleOnline.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.PeopleOnline.Location = new System.Drawing.Point(1022, 3);
             this.PeopleOnline.Name = "PeopleOnline";
-            this.PeopleOnline.Size = new System.Drawing.Size(164, 48);
+            this.PeopleOnline.Size = new System.Drawing.Size(219, 48);
             this.PeopleOnline.TabIndex = 3;
             this.PeopleOnline.Text = "People Online";
+            this.PeopleOnline.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ConvoBox
             // 

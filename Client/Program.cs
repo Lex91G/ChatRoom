@@ -10,10 +10,16 @@ namespace Client
     {
         static void Main(string[] args)
         {
-            Client client = new Client("192.168.0.156", 9999);
-            client.Send();
-            client.Recieve();
-            Console.ReadLine();
+            bool Main = true;
+           
+                Client client = new Client("192.168.0.156", 9999);
+               while(Main = true)
+            {
+                client.Send();
+                client.Recieve();
+                
+            
+            }
         }
     }
 }

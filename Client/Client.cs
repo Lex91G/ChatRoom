@@ -30,5 +30,11 @@ namespace Client
             stream.Read(recievedMessage, 0, recievedMessage.Length);
             UI.DisplayMessage(Encoding.ASCII.GetString(recievedMessage));
         }
+        public void UserName()
+        {
+           Console.WriteLine("UserName");
+           string getUserName = Console.ReadLine();
+            
+        }
     }
 }
