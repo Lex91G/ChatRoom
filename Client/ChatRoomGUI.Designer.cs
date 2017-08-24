@@ -1,6 +1,6 @@
-﻿namespace Server
+﻿namespace Client
 {
-    partial class Form1
+    partial class ChatRoomGUI
     {
         /// <summary>
         /// Required designer variable.
@@ -28,110 +28,109 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.CheckOnline = new System.Windows.Forms.CheckBox();
-            this.PeopleOnline = new System.Windows.Forms.TextBox();
-            this.ConvoBox = new System.Windows.Forms.RichTextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.Exit = new System.Windows.Forms.Button();
+            this.PeopleOnline = new System.Windows.Forms.TextBox();
             this.PeopleOnChat = new System.Windows.Forms.ListView();
+            this.ConvoBox = new System.Windows.Forms.RichTextBox();
             this.textBox = new System.Windows.Forms.TextBox();
             this.Send = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Sitka Display", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(418, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(227, 62);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Fancy Chat";
             // 
             // CheckOnline
             // 
             this.CheckOnline.AutoSize = true;
             this.CheckOnline.Font = new System.Drawing.Font("Segoe Script", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckOnline.Location = new System.Drawing.Point(27, 22);
+            this.CheckOnline.Location = new System.Drawing.Point(26, 8);
             this.CheckOnline.Name = "CheckOnline";
             this.CheckOnline.Size = new System.Drawing.Size(98, 32);
-            this.CheckOnline.TabIndex = 9;
+            this.CheckOnline.TabIndex = 10;
             this.CheckOnline.Text = "Online";
             this.CheckOnline.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Sitka Display", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(381, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(227, 62);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Fancy Chat";
+            // 
+            // Exit
+            // 
+            this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Exit.Location = new System.Drawing.Point(960, 24);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(57, 48);
+            this.Exit.TabIndex = 13;
+            this.Exit.Text = "Exit";
+            this.Exit.UseVisualStyleBackColor = true;
             // 
             // PeopleOnline
             // 
             this.PeopleOnline.BackColor = System.Drawing.SystemColors.ControlText;
             this.PeopleOnline.Font = new System.Drawing.Font("Segoe Print", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PeopleOnline.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.PeopleOnline.Location = new System.Drawing.Point(1045, 0);
+            this.PeopleOnline.Location = new System.Drawing.Point(1052, -3);
             this.PeopleOnline.Name = "PeopleOnline";
             this.PeopleOnline.Size = new System.Drawing.Size(219, 48);
-            this.PeopleOnline.TabIndex = 10;
+            this.PeopleOnline.TabIndex = 14;
             this.PeopleOnline.Text = "People Online";
             this.PeopleOnline.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // ConvoBox
-            // 
-            this.ConvoBox.Location = new System.Drawing.Point(27, 96);
-            this.ConvoBox.Name = "ConvoBox";
-            this.ConvoBox.Size = new System.Drawing.Size(977, 326);
-            this.ConvoBox.TabIndex = 11;
-            this.ConvoBox.Text = "";
-            // 
-            // Exit
-            // 
-            this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Exit.Location = new System.Drawing.Point(933, 36);
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(57, 48);
-            this.Exit.TabIndex = 12;
-            this.Exit.Text = "Exit";
-            this.Exit.UseVisualStyleBackColor = true;
-            // 
             // PeopleOnChat
             // 
-            this.PeopleOnChat.Location = new System.Drawing.Point(1020, 54);
+            this.PeopleOnChat.Location = new System.Drawing.Point(1037, 54);
             this.PeopleOnChat.Name = "PeopleOnChat";
             this.PeopleOnChat.Size = new System.Drawing.Size(244, 374);
-            this.PeopleOnChat.TabIndex = 13;
+            this.PeopleOnChat.TabIndex = 15;
             this.PeopleOnChat.UseCompatibleStateImageBehavior = false;
+            // 
+            // ConvoBox
+            // 
+            this.ConvoBox.Location = new System.Drawing.Point(26, 89);
+            this.ConvoBox.Name = "ConvoBox";
+            this.ConvoBox.Size = new System.Drawing.Size(977, 326);
+            this.ConvoBox.TabIndex = 16;
+            this.ConvoBox.Text = "";
             // 
             // textBox
             // 
-            this.textBox.Location = new System.Drawing.Point(13, 432);
+            this.textBox.Location = new System.Drawing.Point(26, 434);
             this.textBox.Margin = new System.Windows.Forms.Padding(4);
             this.textBox.Multiline = true;
             this.textBox.Name = "textBox";
             this.textBox.Size = new System.Drawing.Size(977, 56);
-            this.textBox.TabIndex = 14;
+            this.textBox.TabIndex = 17;
             // 
             // Send
             // 
-            this.Send.Location = new System.Drawing.Point(1020, 432);
+            this.Send.Location = new System.Drawing.Point(1040, 434);
             this.Send.Margin = new System.Windows.Forms.Padding(4);
             this.Send.Name = "Send";
             this.Send.Size = new System.Drawing.Size(231, 57);
-            this.Send.TabIndex = 15;
+            this.Send.TabIndex = 18;
             this.Send.Text = "Send";
             this.Send.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // ChatRoomGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1276, 502);
+            this.ClientSize = new System.Drawing.Size(1303, 504);
             this.Controls.Add(this.Send);
             this.Controls.Add(this.textBox);
-            this.Controls.Add(this.PeopleOnChat);
-            this.Controls.Add(this.Exit);
             this.Controls.Add(this.ConvoBox);
+            this.Controls.Add(this.PeopleOnChat);
             this.Controls.Add(this.PeopleOnline);
-            this.Controls.Add(this.CheckOnline);
+            this.Controls.Add(this.Exit);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Controls.Add(this.CheckOnline);
+            this.Name = "ChatRoomGUI";
+            this.Text = "ChatRoomGUI";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,12 +138,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox CheckOnline;
-        private System.Windows.Forms.TextBox PeopleOnline;
-        private System.Windows.Forms.RichTextBox ConvoBox;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Exit;
+        private System.Windows.Forms.TextBox PeopleOnline;
         private System.Windows.Forms.ListView PeopleOnChat;
+        private System.Windows.Forms.RichTextBox ConvoBox;
         private System.Windows.Forms.TextBox textBox;
         private System.Windows.Forms.Button Send;
     }
