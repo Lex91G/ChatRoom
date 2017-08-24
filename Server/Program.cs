@@ -12,7 +12,8 @@ namespace Server
         {
             bool thing = true;
             Server test = new Server();
-            test.Run();
+            System.Threading.Thread AcceptingNewClients = new System.Threading.Thread(test.Run);
+            AcceptingNewClients.Start();
             while(thing == true)
             {
                 test.SecondRun();

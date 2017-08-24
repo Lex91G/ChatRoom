@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Client
 {
@@ -10,16 +11,16 @@ namespace Client
     {
         static void Main(string[] args)
         {
-            bool Main = true;
+           
            
                 Client client = new Client("192.168.0.156", 9999);
-               while(Main = true)
-            {
+            Application.Run(client.chatRoomGUI);
+
                 client.Send();
                 client.Recieve();
                 
             
-            }
+            
         }
     }
 }

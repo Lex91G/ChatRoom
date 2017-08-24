@@ -5,16 +5,16 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace Client
 {
     public class Client
     {
-
+        public ChatRoomGUI chatRoomGUI;
         TcpClient clientSocket;
         NetworkStream stream;
         public Client(string IP, int port)
         {
+            this.chatRoomGUI = new ChatRoomGUI(this);
             clientSocket = new TcpClient();
             clientSocket.Connect(IPAddress.Parse(IP), port);
             stream = clientSocket.GetStream();
